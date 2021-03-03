@@ -1,0 +1,10 @@
+<Meta name="Assingment2_OLTC">
+  <messagelist />
+  <Catalog count="0" />
+  <ViewContext>
+    <Window defn="Assingment2_OLTC:Main" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomlevel="5" scrollx="0" scrolly="844" />
+  </List>
+</Meta>
