@@ -1,0 +1,29 @@
+<Meta name="new">
+  <messagelist>
+    <message status="normal" label="build" groupid="100011">
+      <Wire scope="new" name="FLAT230" status="normal" link="1935965525" /><![CDATA[Transmission segment manual solve: started.]]></message>
+    <message status="normal" label="build" groupid="100011">
+      <Wire scope="new" name="FLAT230" status="normal" link="1935965525" /><![CDATA[Transmission segment manual solve: complete.]]></message>
+    <message status="normal" label="information" scope="new1" groupid="100000"><![CDATA[Project namespace 'new' has been renamed to 'new1']]></message>
+  </messagelist>
+  <ViewContext>
+    <Window defn="new:Main" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="FLAT230" zoomlevel="6" scrollx="0" scrolly="0" />
+    <View name="Main" zoomlevel="6" scrollx="0" scrolly="0" />
+  </List>
+  <Output device="EMTDC" version="2010" date="2018/01/24" time="13:49:52.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="20000.0" end="10000" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0):3 Phase Source Current" index="0" id="101229688:0" label="Source Current" dim="3" unit="kA" min="-1.50" max="1.50" />
+      <Analog name="Main(0):3 Phase Load Voltage" index="3" id="101224792:0" label="Load Voltage" dim="3" unit="kV" min="-200" max="200" />
+      <Analog name="Main(0):Phase C Fault Current " index="6" id="101224384:0" label="Fault Current" dim="1" unit="kA" min="-1.50" max="1.50" />
+      <Analog name="Main(0):3 Phase Breaker Current" index="7" id="101230504:0" label="Breaker Current" dim="3" unit="kA" min="-1.50" max="1.50" />
+    </List>
+    <List classid="Digital" />
+  </Output>
+  <Catalog count="0" />
+</Meta>

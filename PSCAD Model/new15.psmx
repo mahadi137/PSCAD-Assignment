@@ -1,0 +1,43 @@
+<Meta name="new1">
+  <messagelist>
+    <message status="normal" label="build" groupid="100006">
+      <User scope="new1" name="Main" status="normal" link="712165744" /><![CDATA[Generating network and source code 'C:\Users\mahadi\Desktop\Electric Power System\40% Assignments\PSCAD Model\new1.gf46\Main.f'.]]></message>
+    <message status="error" label="build" groupid="310004">
+      <User scope="new1" name="master:datalabel" status="error" link="1901248928" /><![CDATA[Signal 'GND' name contention, cannot rename to 'Flt1']]></message>
+    <message status="error" label="build" scope="new1" groupid="310503"><![CDATA[Dimension mismatch at TLine 'FLAT230']]></message>
+    <message status="error" label="build" scope="new1" groupid="310503"><![CDATA[Dimension mismatch at TLine 'FLAT230']]></message>
+    <message status="error" label="build" groupid="305500">
+      <User scope="new1" name="master:tpflt" status="error" link="2087521150" /><![CDATA[Branch path is shorted -> BrBG = $NB   $NN     BREAKER 1000000.0]]></message>
+    <message status="error" label="build" groupid="305500">
+      <User scope="new1" name="master:ammeter" status="error" link="1731368423" /><![CDATA[Branch path is shorted -> BN = $N1 $N2 AMMETER]]></message>
+    <message status="error" label="build" groupid="305500">
+      <User scope="new1" name="master:resistor" status="error" link="739190452" /><![CDATA[Branch path is shorted -> $A $B       500.0 0 0]]></message>
+    <message status="error" label="build" groupid="305500">
+      <User scope="new1" name="master:breaker3" status="error" link="761528435" /><![CDATA[Branch path is shorted -> BrB  = $B1 $B2     BREAKER  1.0E6]]></message>
+    <message status="error" label="build" groupid="311006">
+      <Wire scope="new1" name="FLAT230" status="error" link="1935965525" /><![CDATA[Line segment 'FLAT230' is shorted across end points.]]></message>
+    <message status="normal" label="build" scope="new1" groupid="400000"><![CDATA[Time for Compile: 16ms  Make: 0ms]]></message>
+    <message status="normal" label="build" scope="new1" groupid="400001"><![CDATA[======== Build: 8 errors, 0 warnings ========]]></message>
+  </messagelist>
+  <ViewContext>
+    <Window defn="new1:Main" />
+  </ViewContext>
+  <List classid="View">
+    <View name="FLAT230" zoomlevel="6" scrollx="0" scrolly="0" />
+    <View name="Main" zoomlevel="6" scrollx="6" scrolly="180" />
+    <View name="Station" zoomlevel="6" scrollx="0" scrolly="0" />
+  </List>
+  <Catalog count="0" />
+  <Output device="EMTDC" version="2010" date="2019/01/26" time="20:23:22.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="20000.0" end="10000" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0):3 Phase Source Current" index="0" id="101229688:0" label="Source Current" dim="3" unit="kA" min="-1.50" max="1.50" />
+      <Analog name="Main(0):3 Phase Load Voltage" index="3" id="101224792:0" label="Load Voltage" dim="3" unit="kV" min="-200" max="200" />
+      <Analog name="Main(0):Phase C Fault Current " index="6" id="101224384:0" label="Fault Current" dim="1" unit="kA" min="-1.50" max="1.50" />
+      <Analog name="Main(0):3 Phase Breaker Current" index="7" id="101230504:0" label="Breaker Current" dim="3" unit="kA" min="-1.50" max="1.50" />
+    </List>
+    <List classid="Digital" />
+  </Output>
+</Meta>
